@@ -10,4 +10,5 @@ steps:
       - echo "Installing sshx..."
       - curl -sSf https://sshx.io/get | sh
       - echo "Starting sshx session..."
-      - ./sshx
+      # Yahan se ./ hata kar sirf sshx likha hai:
+      - sshx
